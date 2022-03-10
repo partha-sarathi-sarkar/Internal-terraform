@@ -12,5 +12,7 @@ variable "storage_account_type" {
 }
 
 variable "create_option" {
-  default = "FromImage"
+  default = "Empty"
+}
+variable "environment" {
 }

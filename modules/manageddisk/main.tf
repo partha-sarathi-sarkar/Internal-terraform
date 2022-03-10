@@ -7,6 +7,6 @@ resource "azurerm_managed_disk" "example" {
   disk_size_gb         = "100"
 
   tags = {
-    environment = "staging"
+    environment = var.environment
   }
 }
