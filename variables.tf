@@ -12,7 +12,7 @@ variable "storage_account_type" {
 }
 
 variable "create_option" {
-  default = "Empty"
+  default = "Copy"
 }
 variable "environment" {
 }
